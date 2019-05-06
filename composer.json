@@ -1,0 +1,23 @@
+{
+  "name": "jfngozo/eli",
+  "description": "English Language Institute, San Francisco | Student Portal",
+  "license": "Joel F Ngozo",
+  "authors": [
+    {
+      "name": "Joel F Ngozo",
+      "email": "Joelngozo@gmail.com"
+    }
+  ],
+  "minimum-stability": "beta",
+  "require": {
+    "pragmarx/random": "^0.2.2",
+    "stripe/stripe-php": "^6.30",
+    "samayo/bulletproof": "4.0.*",
+    "ircmaxell/random-lib": "^1.2"
+  },
+  "autoload": {
+    "classmap": [
+      "Core/"
+    ]
+  }
+}

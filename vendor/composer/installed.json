@@ -1,0 +1,278 @@
+[
+    {
+        "name": "ircmaxell/random-lib",
+        "version": "v1.2.0",
+        "version_normalized": "1.2.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/ircmaxell/RandomLib.git",
+            "reference": "e9e0204f40e49fa4419946c677eccd3fa25b8cf4"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/ircmaxell/RandomLib/zipball/e9e0204f40e49fa4419946c677eccd3fa25b8cf4",
+            "reference": "e9e0204f40e49fa4419946c677eccd3fa25b8cf4",
+            "shasum": ""
+        },
+        "require": {
+            "ircmaxell/security-lib": "^1.1",
+            "php": ">=5.3.2"
+        },
+        "require-dev": {
+            "friendsofphp/php-cs-fixer": "^1.11",
+            "mikey179/vfsstream": "^1.6",
+            "phpunit/phpunit": "^4.8|^5.0"
+        },
+        "time": "2016-09-07T15:52:06+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.1.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "RandomLib": "lib"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Anthony Ferrara",
+                "email": "ircmaxell@ircmaxell.com",
+                "homepage": "http://blog.ircmaxell.com"
+            }
+        ],
+        "description": "A Library For Generating Secure Random Numbers",
+        "homepage": "https://github.com/ircmaxell/RandomLib",
+        "keywords": [
+            "cryptography",
+            "random",
+            "random-numbers",
+            "random-strings"
+        ]
+    },
+    {
+        "name": "ircmaxell/security-lib",
+        "version": "v1.1.0",
+        "version_normalized": "1.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/ircmaxell/SecurityLib.git",
+            "reference": "f3db6de12c20c9bcd1aa3db4353a1bbe0e44e1b5"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/ircmaxell/SecurityLib/zipball/f3db6de12c20c9bcd1aa3db4353a1bbe0e44e1b5",
+            "reference": "f3db6de12c20c9bcd1aa3db4353a1bbe0e44e1b5",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.2"
+        },
+        "require-dev": {
+            "mikey179/vfsstream": "1.1.*"
+        },
+        "time": "2015-03-20T14:31:23+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "SecurityLib": "lib"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Anthony Ferrara",
+                "email": "ircmaxell@ircmaxell.com",
+                "homepage": "http://blog.ircmaxell.com"
+            }
+        ],
+        "description": "A Base Security Library",
+        "homepage": "https://github.com/ircmaxell/SecurityLib"
+    },
+    {
+        "name": "pragmarx/random",
+        "version": "v0.2.2",
+        "version_normalized": "0.2.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/antonioribeiro/random.git",
+            "reference": "daf08a189c5d2d40d1a827db46364d3a741a51b7"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/antonioribeiro/random/zipball/daf08a189c5d2d40d1a827db46364d3a741a51b7",
+            "reference": "daf08a189c5d2d40d1a827db46364d3a741a51b7",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=7.0"
+        },
+        "require-dev": {
+            "fzaninotto/faker": "~1.7",
+            "phpunit/phpunit": "~6.4",
+            "pragmarx/trivia": "~0.1",
+            "squizlabs/php_codesniffer": "^2.3"
+        },
+        "suggest": {
+            "fzaninotto/faker": "Allows you to get dozens of randomized types",
+            "pragmarx/trivia": "For the trivia database"
+        },
+        "time": "2017-11-21T05:26:22+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "PragmaRX\\Random\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Antonio Carlos Ribeiro",
+                "email": "acr@antoniocarlosribeiro.com",
+                "homepage": "https://antoniocarlosribeiro.com",
+                "role": "Developer"
+            }
+        ],
+        "description": "Create random chars, numbers, strings",
+        "homepage": "https://github.com/antonioribeiro/random",
+        "keywords": [
+            "Randomize",
+            "faker",
+            "pragmarx",
+            "random",
+            "random number",
+            "random pattern",
+            "random string"
+        ]
+    },
+    {
+        "name": "samayo/bulletproof",
+        "version": "v4.0.1",
+        "version_normalized": "4.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/samayo/bulletproof.git",
+            "reference": "4e485530522c0f3af81eba3955f1c459401cdd54"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/samayo/bulletproof/zipball/4e485530522c0f3af81eba3955f1c459401cdd54",
+            "reference": "4e485530522c0f3af81eba3955f1c459401cdd54",
+            "shasum": ""
+        },
+        "require": {
+            "ext-exif": "*",
+            "php": ">=5.3.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^6"
+        },
+        "time": "2018-06-23T22:16:47+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "src/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "samayo"
+            }
+        ],
+        "description": "A simple and secure PHP image uploader",
+        "homepage": "http://github.com/samayo/bulletproof",
+        "keywords": [
+            "Simple",
+            "image",
+            "security",
+            "upload"
+        ]
+    },
+    {
+        "name": "stripe/stripe-php",
+        "version": "v6.33.0",
+        "version_normalized": "6.33.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/stripe/stripe-php.git",
+            "reference": "042acd0d1c956a51f447419075d1f23969b0f262"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/stripe/stripe-php/zipball/042acd0d1c956a51f447419075d1f23969b0f262",
+            "reference": "042acd0d1c956a51f447419075d1f23969b0f262",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "ext-json": "*",
+            "ext-mbstring": "*",
+            "php": ">=5.4.0"
+        },
+        "require-dev": {
+            "php-coveralls/php-coveralls": "1.*",
+            "phpunit/phpunit": "~4.0",
+            "squizlabs/php_codesniffer": "~2.0",
+            "symfony/process": "~2.8"
+        },
+        "time": "2019-04-22T23:29:54+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.0-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Stripe\\": "lib/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Stripe and contributors",
+                "homepage": "https://github.com/stripe/stripe-php/contributors"
+            }
+        ],
+        "description": "Stripe PHP Library",
+        "homepage": "https://stripe.com/",
+        "keywords": [
+            "api",
+            "payment processing",
+            "stripe"
+        ]
+    }
+]

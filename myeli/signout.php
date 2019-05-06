@@ -1,0 +1,9 @@
+<?php
+session_start();
+unset($_SESSION['STD_ID']);
+unset($_SESSION['F_NAME']);
+unset($_SESSION['L_NAME']);
+unset($_SESSION['EMAIL']);
+unset($_SESSION['PIC']);
+session_destroy();
+header("location:../");

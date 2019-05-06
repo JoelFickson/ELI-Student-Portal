@@ -1,0 +1,25 @@
+#RewriteEngine On
+#RewriteCond %{SERVER_PORT} 80
+#RewriteRule ^(.*)$ https://www.livelongint.com/$1 [R=301,L]
+
+<IfModule mod_rewrite.c>
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ $1.php
+
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.*)$ $1.html
+options -indexes
+ErrorDocument 404 /404.php
+ErrorDocument 400 /404.php
+ErrorDocument 403 /404.php
+
+</IfModule>
+
+
+
+ 
